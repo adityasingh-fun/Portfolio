@@ -1,6 +1,7 @@
 nav{
     display: flex;
     flex-direction: column;
+    /* gap: 10px; */
     align-items: center;
     background-color: #fff;
     padding: 0 20px;
@@ -15,29 +16,44 @@ nav ul{
     display: flex;
     list-style: none;
     flex-direction: column;
+    padding: 5px;
+
+    gap: 5px;
     align-items: center;
     justify-content: center;
 }
 
 nav ul li{
+    
     transition: all 0.3s ease-in-out;
-    padding-bottom: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    /* font-size: 30px; */
+    background-color: rgb(243 244 246);
+    
 }
 
 nav ul li a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
     text-decoration: none;
     color: #333;
 }
 
-nav ul li:hover{
-    border-radius: 4px;
-    background-color: #f2b212;
-    padding: 5px;
+.iconss{
+    font-size: 30px;
 }
 
-nav ul li a:hover{
-    color:white;
+nav ul li:hover{
+    border-radius: 4px;
+    background-color: rgb(209 213 219);
+    /* padding: 5px; */
 }
+
+/* nav ul li a:hover{
+    color:white;
+} */
 
 @media(min-width:700px){
     nav ul{

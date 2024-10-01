@@ -1,7 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
-import profileImg from "../../assets/profileImg.jpg"
-import "./Header.css"
+import profileImg from "../../assets/profileImg.jpg";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="header-content">
         <h1>Hey! I am </h1>
         <h2 className="fullname">Aditya Singh</h2>
-        <h2>I am a {" "}</h2>
+        <h2>I am a </h2>
         <Typical
           steps={[
             "Fullstack Developer 🚀",
@@ -23,11 +23,15 @@ const Header = () => {
           wrapper="b"
         />
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-          quaerat sint recusandae, amet dolorem id, distinctio vero maxime
-          eveniet temporibus laudantium voluptate dignissimos modi, suscipit
-          placeat? Molestias ratione rerum, recusandae, dignissimos quo sapiente
-          totam consequatur eaque doloremque voluptates commodi autem.
+          A passionate and motivated Full Stack Developer with a strong
+          foundation in both frontend and backend technologies. Proficient in
+          HTML, CSS, JavaScript, and frameworks like React for the frontend,
+          along with Node.js, Express, and MongoDB for backend development.
+          Eager to apply technical skills in real-world projects, learn new
+          technologies, and contribute to collaborative development
+          environments. Strong problem-solving abilities, a quick learner, and
+          committed to building efficient, scalable web applications. Ready to
+          bring innovative solutions to dynamic teams as a fresher.
         </p>
 
         <div className="header-payment-container">

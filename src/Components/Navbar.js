@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../assets/mernLogo.png";
 import "./Navbar.css";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -11,17 +13,12 @@ const Navbar = () => {
       <div className="nav-links">
         <ul>
             <li>
-                <a href="/">Home</a>
+                <a href="https://www.linkedin.com/in/aditya-singh-1874b41ab/" target="blank">Linked-In <FaLinkedin className="iconss"/></a>
             </li>
             <li>
-                <a href="/">About</a>
+                <a href="https://github.com/adityasingh-fun" target="blank"> Github Profile <FaGithub className="iconss"/></a>
             </li>
-            <li>
-                <a href="/">Services</a>
-            </li>
-            <li>
-                <a href="/">Portfolio</a>
-            </li>
+            
         </ul>
       </div>
     </nav>

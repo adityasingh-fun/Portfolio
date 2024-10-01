@@ -11,11 +11,9 @@ const Services = () => {
             My Awesome <span>Services</span>
           </h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
-            necessitatibus aliquam excepturi corrupti eligendi placeat ipsa esse
-            quaerat ea odit voluptatum officiis aperiam ullam repellat cumque
-            dolores nesciunt quam, debitis sapiente. Iure optio, unde possimus
-            illum ipsum deleniti eligendi ea!
+            As a Full Stack Developer, I provide comprehensive web development
+            services that cover both frontend and backend aspects of an
+            application. Here’s how I can help:
           </p>
           <button>Hire Me</button>
         </div>
@@ -24,39 +22,35 @@ const Services = () => {
           <div className="services-item">
             <i className="fa-solid fa-code"></i>
             <div className="item-desc">
-              <h3>Web Development</h3>
+              <h3>Frontend Development</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laborum neque ipsam consequatur fugit necessitatibus vero quam
-                dolor deleniti illum similique. Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Dolorum quibusdam nesciunt iste
-                non explicabo rem assumenda animi ipsa molestias accusantium!
+                I build responsive, user-friendly interfaces using HTML, CSS,
+                and JavaScript frameworks like React or Angular. I ensure that
+                your website or application looks great and functions smoothly
+                across all devices.
               </p>
             </div>
           </div>
           <div className="services-item">
             <i className="fa-solid fa-desktop"></i>
             <div className="item-desc">
-              <h3>Desktop Developmnet</h3>
+              <h3>Backend Developmnet</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Delectus quas modi ab. Praesentium possimus, delectus saepe
-                placeat at accusamus sed ipsum incidunt cumque quibusdam sequi
-                molestias ducimus magnam reiciendis excepturi! Ducimus aperiam
-                soluta minus sunt error voluptatibus itaque, id explicabo.
+                I handle the server-side logic, creating robust APIs and
+                managing databases (SQL, MongoDB). Using technologies like
+                Node.js and Express, I ensure efficient data processing,
+                security, and scalability.
               </p>
             </div>
           </div>
           <div className="services-item">
             <i className="fa-solid fa-tablet-alt"></i>
             <div className="item-desc">
-              <h3>Desktop Development</h3>
+              <h3>Fullstack Development</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                unde eligendi esse nihil pariatur deserunt, voluptatum mollitia
-                quos labore dolores, cumque, fugit sed illum consequatur iure.
-                Explicabo temporibus animi similique officiis nobis ea nisi nam
-                fugiat eum autem! Mollitia, quas!
+                From conceptualization to deployment, I can build entire web
+                applications from the ground up, ensuring that both the frontend
+                and backend components integrate seamlessly.
               </p>
             </div>
           </div>
